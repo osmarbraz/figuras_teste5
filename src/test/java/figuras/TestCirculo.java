@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 public class TestCirculo {
-
-    @Test
+    
+    @Test    
     public void testGetArea() {
         double lado = 5;
         double retornoEsperado = 78.53750000000001;
