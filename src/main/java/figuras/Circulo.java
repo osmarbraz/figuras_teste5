@@ -3,7 +3,7 @@ package figuras;
 public class Circulo extends Figura {
 
     private double raio;
-    private final double PI = 3.1415;
+    private static final double PI = 3.1415;
 
     public Circulo() {
         this("", 0);

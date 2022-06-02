@@ -1,6 +1,6 @@
 package figuras;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +12,7 @@ class TestFigura {
     void testGetCor() {
         String retornoEsperado = "Verde";
         Figura circulo = new Circulo();
-        circulo.setCor("Verde");
-        assertTrue(retornoEsperado.equals(circulo.getCor()));
+        circulo.setCor("Verde");        
+        assertEquals(retornoEsperado, circulo.getCor());
     }
 }
