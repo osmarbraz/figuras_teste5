@@ -1,6 +1,5 @@
 package principal;
 
-
 import figuras.Circulo;
 import figuras.Quadrado;
 import figuras.Retangulo;
@@ -66,6 +65,10 @@ public class Principal {
                 }
                 case "8": {
                     JOptionPane.showMessageDialog(null, "Área Circulo: " + circulo.getArea());
+                    break;
+                }
+                case "9": {
+                    JOptionPane.showMessageDialog(null, "Saindo do sistema.");
                     break;
                 }
                 default:
