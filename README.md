@@ -15,7 +15,7 @@ Pipeline
 - prd - Empacotamento.
 
 <br>
-- O projeto foi desenvolvido no NetBeans deve ser chamado calculadora_teste.<br>
+- O projeto foi desenvolvido no NetBeans deve ser chamado figuras_teste5.<br>
 - Utiliza o Apache Maven para a automatização da construção.<br>
 - A pasta test contêm os testes unitários do projeto utilizando JUnit 5.<br>
 - A cobertura do código é realizada através do JaCoCo.<br>
